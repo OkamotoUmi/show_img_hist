@@ -7,7 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://upload.wikimedia.org/wikipedia/commons/archive/a/a6/20070811070814%21MonumentValley_640px.jpg'
 
-im = imread(img_url))
+im = imread(img_url) 
 
 st.image(im, caption='here I changed the caption text',
          use_column_width=True)
