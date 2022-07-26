@@ -5,11 +5,11 @@ from skimage.io import imread
 
 
 # download the image
-img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Fuji_from_Mount_Aino.jpg/640px-Mount_Fuji_from_Mount_Aino.jpg'
+img_url = 'https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqGwgwvHQ_PgdDhT0HhwTSMzfRA-bZ4PbTqkEh6CjSNPIriIvgi8H2TG2XJ3ahJ_L5naT3NpQzAfEYckVMnNqXqVcxNHNajhkDufT9bv7HnnetU_SGE4oTRZXTbGnwI59IPx9AMJZjzjdUFDzHFjHLbNOhfDHJQnRwiVsdN4qvxDZOyYrOTIgPNX6wNKP1BkrVKk6XvUUXIuSz5BvHNw_Zb-LyZZBCycmkJZ1_dFZhYy7FL8W3gfloOHftZfiojh1UjA==/520664.jpg?errorImage=false'
 
 im = imread(img_url)
 
-st.image(im, caption='image from wikimedia commons',
+st.image(im, caption='here I changed the caption text',
          use_column_width=True)
 
 
