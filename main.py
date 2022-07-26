@@ -5,7 +5,7 @@ from skimage.io import imread
 
 
 # download the image
-img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Генуезька_фортеця._Панорама.jpg/2880px-Генуезька_фортеця._Панорама.jpg'
+img_url = 'https://upload.wikimedia.org/wikipedia/commons/archive/a/a6/20070811070814%21MonumentValley_640px.jpg'
 
 im = imread(img_url)
 
